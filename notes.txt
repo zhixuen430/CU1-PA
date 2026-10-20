@@ -1,0 +1,236 @@
+NOTE:
+    -You should not re-arrange the files/folder structure
+    -You should only add your code on the index.html and css file.
+
+COLOR CODE:
+    Navbar:
+        Background Color: #fff
+        Box Shadow: 0 2px 10px rgba(0, 0, 0, 0.08)
+        Logo Color: #1A1A2E
+        Logo Accent Color: #C9A84C
+        Link Color: #555
+        Link Hover Color: #C9A84C
+
+        "Get in Touch" Button:
+            Background Color: #1A1A2E
+            Text Color: #fff
+            Hover Background Color: #2D2D4E
+
+    Hero Section:
+        Background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%)
+        Text Color: #fff
+        Subtitle Color: #D1D5DB
+
+        "View Our Work" Button:
+            Background Color: #FFFF
+            Text Color: #1A1A2E
+
+    Body Text:
+        Color: #333
+
+    Section Headings:
+        Color: #1A1A2E
+
+    Section Subtitles:
+        Color: #6B7280
+
+    Projects Section:
+        Background Color: #fff
+
+        Project Card:
+            Border: 1px solid #E5E7EB
+            Hover Shadow: 0 10px 30px rgba(0, 0, 0, 0.1)
+
+        Project Heading Color: #1A1A2E
+        Project Text Color: #6B7280
+        Project Tag Background: #F0E6C8
+        Project Tag Text: #8B7024
+
+    Services Section:
+        Background Color: #F9F7F2
+
+        Service Card:
+            Background Color: #fff
+            Border: 1px solid #E5E7EB
+
+        Service Icon Box:
+            Background Color: #1A1A2E
+            Icon Color: #C9A84C
+
+        Service Card Heading Color: #1A1A2E
+        Service Card Text Color: #6B7280
+
+    Team Section:
+        Background Color: #fff
+
+        Team Card:
+            Background Color: #F9FAFB
+
+        Team Avatar Color: #C9A84C
+        Team Name Color: #1A1A2E
+        Team Role Color: #C9A84C
+        Team Description Color: #6B7280
+
+    Contact Section:
+        Background Color: #fff
+
+        Benefits Checkmark Color: #C9A84C
+        Benefits Text Color: #374151
+
+        Form:
+            Background Color: #F9FAFB
+            Box Shadow: 0 4px 6px rgba(0, 0, 0, 0.05)
+            Input Border: 1px solid #D1D5DB
+            Input Focus Border Color: #C9A84C
+            Input Focus Box Shadow: 0 0 0 3px rgba(201, 168, 76, 0.15)
+            Label Color: #374151
+
+        Submit Button:
+            Background Color: #1A1A2E
+            Text Color: #fff
+            Hover Background Color: #2D2D4E
+
+    Footer:
+        Background Color: #1A1A2E
+        Text Color: #fff
+        Brand Accent Color: #C9A84C
+        Link Color: #9CA3AF
+        Link Hover Color: #fff
+        Copyright Color: #6B7280
+
+TEXT:
+    Title:
+        ArcVault - Architecture Redefined
+
+    Nav Menu:
+        Projects
+        Services
+        Team
+        Get in Touch
+
+    Hero Section:
+        Architecture Redefined
+        We design spaces that inspire, endure, and transform the way people live and work.
+        View Our Work
+
+    Projects Section:
+        Featured Projects
+        A selection of our most iconic designs across residential, commercial, and public spaces
+
+        Card 1:
+            The Horizon Residence
+            A modern hillside home with panoramic views and sustainable materials.
+            Tag: Residential
+
+        Card 2:
+            Vertex Tower
+            A 40-storey mixed-use tower blending retail, office, and green space.
+            Tag: Commercial
+
+        Card 3:
+            Civic Arts Pavilion
+            A public cultural centre designed to foster community engagement.
+            Tag: Public
+
+    Services Section:
+        Our Services
+        End-to-end architectural solutions tailored to your vision
+
+        Card 1:
+            <i class="bi bi-pencil-square"></i>
+            Concept Design
+            From initial sketches to 3D visualisations, we bring your ideas to life with precision and creativity.
+
+        Card 2:
+            <i class="bi bi-building"></i>
+            Construction Planning
+            Detailed blueprints and project management to ensure on-time, on-budget delivery.
+
+        Card 3:
+            <i class="bi bi-tree"></i>
+            Sustainable Design
+            Eco-friendly materials and energy-efficient layouts that reduce environmental impact.
+
+        Card 4:
+            <i class="bi bi-house-door"></i>
+            Interior Architecture
+            Thoughtful interior spaces that balance form, function, and comfort.
+
+        Card 5:
+            <i class="bi bi-geo-alt"></i>
+            Urban Planning
+            Master plans for neighbourhoods and districts that promote connectivity and liveability.
+
+        Card 6:
+            <i class="bi bi-rulers"></i>
+            Renovation & Restoration
+            Breathing new life into heritage buildings while preserving their character and history.
+
+    Team Section:
+        Meet Our Team
+        Award-winning architects and designers dedicated to excellence
+
+        Member 1:
+            Sarah Chen
+            Principal Architect
+            20+ years of experience in sustainable commercial design. Winner of the Global Design Award 2023.
+
+        Member 2:
+            James Rivera
+            Lead Designer
+            Specialist in residential architecture with a focus on minimalist, functional living spaces.
+
+        Member 3:
+            Amira Patel
+            Urban Planner
+            Expert in mixed-use developments and community-driven urban design projects.
+
+    Contact Section:
+        Start Your Project
+        Ready to bring your vision to life? Get in touch and let's discuss your next project.
+
+        Benefits:
+            Free initial consultation
+            Personalised design approach
+            Transparent pricing
+
+        Form Fields:
+            Full Name (placeholder: John Doe)
+            Email Address (placeholder: john@company.com)
+            Project Type (dropdown: Residential, Commercial, Public / Institutional, Renovation)
+            Message (placeholder: Tell us about your project...)
+            Send Enquiry
+
+    Footer:
+        ArcVault
+        Designing the future since 2010
+
+        Links:
+            Privacy Policy
+            Terms of Service
+            Careers
+            Contact Us
+
+        © 2024 ArcVault. All rights reserved.
+
+LAYOUT NOTES:
+    - Navbar: Flexbox row, logo left, links right
+    - Projects: CSS Grid, 3 columns
+    - Services: CSS Grid, 3 columns (2 rows)
+    - Team: Flexbox row, 3 cards, centered
+    - Contact: Flexbox row, content left, form right
+    - Footer: Centered text layout
+
+RESPONSIVE BREAKPOINTS:
+    Tablet (max-width: 991px):
+        - Hamburger menu replaces nav links
+        - Projects grid becomes 2 columns
+        - Services grid becomes 2 columns
+        - Contact section stacks vertically
+
+    Mobile (max-width: 767px):
+        - Projects grid becomes 1 column
+        - Services grid becomes 1 column
+        - Team cards stack vertically
+        - Reduced heading sizes
+        - Footer links stack vertically
